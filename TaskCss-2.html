@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TaskCss-2</title>
+    <style>
+      #n1 {
+        list-style-type: none;
+        margin: 5;
+        padding: 0;
+        background-color: rgb(181, 229, 219);
+        width: 300px;
+        border: 1px solid black;
+        display: grid;
+        border-style: double;
+      }
+      li a {
+        display: block;
+        text-decoration: none;
+        padding: 5px;
+        color: blue;
+      }
+      li a:hover {
+        background-color: grey;
+      }
+      li #c1:hover {
+        background-color: orange;
+      }
+      #n2 {
+        list-style-type: none;
+        margin: 5;
+        padding: 0;
+        border-style: double;
+        background-color: rgb(202, 218, 234);
+        width: 210px;
+        border: 1px solid black;
+        display: flex;
+      }
+    </style>
+  </head>
+  <body>
+    <h3>Vertical Navigation Bar</h3>
+    <ul id="n1">
+      <li><a href="#" id="c1">Home</a></li>
+      <li><a href="#" id="c1">Java</a></li>
+      <li><a href="#" id="c1">CSS</a></li>
+      <li><a href="#" id="c1">HTML</a></li>
+      <li><a href="#" id="c1">BootStrap</a></li>
+    </ul>
+
+    <h3>Horizontal Navigation Bar</h3>
+    <ul id="n2">
+      <li><a href="#">Home</a></li>
+      <li><a href="#">Java</a></li>
+      <li><a href="#">HTML</a></li>
+      <li><a href="#">CSS</a></li>
+      <li><a href="#"></a></li>
+    </ul>
+  </body>
+</html>

@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Task 6</title>
+    <style>
+        body{
+            padding: 0;
+            margin: 0;
+            font-family: 'Arial Narrow', Arial, sans-serif;
+        }
+        .box{
+            width: 500px;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 50px;
+        }
+        .image{
+            width: fit-content;
+            margin-left: auto;
+            margin-right: auto;
+            margin-bottom: 50px;
+        }
+        img{
+            width: 250px;
+            height: 250px;
+            border-radius: 50%;
+        }
+        .input_box input{
+            width: 490px;
+            background-color: white;
+            height: 30px;
+            padding: 5px;
+            margin-bottom: 20px;
+            border: 0.5px solid grey;
+        }
+        .login button{
+            width: 100%;
+            height: 30px;
+            background-color: rgb(0, 181, 0);
+            color: white;
+            font-size: 15px;
+            font-weight: bold;
+            border: none;
+            margin-bottom: 20px;
+        }
+        .check{
+            margin-bottom: 20px;
+        }
+        .foot{
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            background-color: rgb(232, 232, 232);
+            padding: 5px;
+        }
+        .cancel{
+            background-color: red;
+            width: 100px;
+            border: none;
+            color: white;
+            font-weight: 700;
+            border-radius: 7px;
+        }
+        .fp a{
+            color: black;
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <div class="image">
+            <img src="D:\vscode\MERN Stack\Screenshot 2023-09-14 191718.png" alt="User Image">
+        </div>
+
+        <div class="content">
+            <form action="">
+                <div class="bold"><label for="username"><b>Username</b></label></div>
+                <div class="input_box"><input type="text" placeholder="Enter Username"></div>
+                <div class="bold"><label for="Password"><b>Password</b></label></div>
+                <div class="input_box"><input type="password" placeholder="Enter Password"></div>
+                <div class="login"><button>Login</button></div>
+                
+                <div class="check">
+                    <input type="checkbox" id="check_box">
+                    <label for="">Remember me</label>
+                </div>
+                <div class="foot">
+                    <button class="cancel">Cancel</button>
+                    <p class="fp"><a href="#">Forgot password?</a></p>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

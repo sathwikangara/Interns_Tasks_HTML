@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TaskCss-7</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+
+        .Outer {
+            background-color: rgb(185, 11, 96);
+            width: 800px;
+            height: 400px;
+            margin-top: 150px;
+            margin-left: auto;
+            margin-right: auto;
+            position: relative;
+        }
+
+        .Inner {
+            background-color: rgb(118, 2, 58);
+            width: 600px;
+            height: 300px;
+            position: absolute;
+            margin-left: 100px;
+            margin-right: auto;
+            margin-top: 50px;
+        }
+
+        table {
+
+            margin-top: 30px;
+            position: relative;
+        }
+
+        button {
+            margin-top: 20px;
+            width: 200px;
+            height: 25px;
+            background-color: white;
+            color: black;
+            font-size: 15px;
+            font-weight: bold;
+        }
+
+        table,
+        td,
+        tr {
+            margin-left: auto;
+            margin-right: auto;
+            color: white;
+
+        }
+        th{
+            text-align: left;
+            font-weight: normal;
+        }
+        tr{
+            text-align: left;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="Outer">
+        <div class="Inner">
+            <table>
+                <tr>
+                    <th>
+                        <label for="name">Name:</label>
+                    </th>
+                    <td>
+                        <input type="text" name="name" style="width: 300px;" placeholder="your name"/>
+                    </td>
+                    </td>
+                </tr>
+                <tr>
+                    <th><label for name="email">Email:</label></th>
+                    <td><input type="email" name="mail" style="width: 300px;" placeholder="your email"/></td>
+                </tr>
+                <tr>
+                    <th><label for name="password">Password:</label></td>
+                    <td><input type="password" name="password" style="width: 300px;"></td>
+                </tr>
+                <tr>
+                    <th><label for="ph_no">Phone Number:</label></th>
+                    <td><input type="number" name="ph_no" style="width: 300px;"></td>
+                </tr>
+                <tr>
+                    <th><label for="gen">Gender:</label></th>
+                    <td> <label for name="gender" value="male">Male</label>
+                        <input type="radio" name="male"/>
+                        <label for name="gender" value="female">Female</label>
+                        <input type="radio" name="female"/>
+                        <label for name="gender" value="other">Other</label>
+                        <input type="radio" name="other"/>
+                </tr>
+                </td>
+                </tr>
+                <tr>
+                    <th><label for="country">Language:</label></th>
+                    <td><select name="country">
+
+                            <option value="Choose">Select Language </option>
+                            <option value="English">English</option>
+                            <option value="Hindi">Hindi</option>
+                            <option value="Telugu">Telugu</option>
+                            <option value="French">French</option>
+                        </select></td>
+                </tr>
+                <tr>
+                    <th><label for="zip">Zip Code:</label></th>
+                    <td><input type="number" name="zip" style="width: 300px;"></td>
+                </tr>
+                <tr>
+                    <th><label for="About">About: </label></th>
+                    <td><textarea name="About" style="width: 300px;" placeholder="Write about yourself..."></textarea>
+                    </td>
+                </tr>
+            </table>
+            <button>Register</button>
+        </div>
+    </div>
+
+</body>
+
+</html>

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TaskCss-4</title>
+    <style>
+        body{
+            padding: 0;
+            margin: 0;
+        }
+        .Home {
+            top: 20px;
+            background-color: #04AA6D;
+        }
+
+        .About {
+            top: 80px;
+            background-color: #2196F3;
+        }
+
+        .Services {
+            top: 140px;
+            background-color: #f44336;
+        }
+
+        .Contact {
+            top: 200px;
+            background-color: #555;
+        }
+
+        .sidebar a {
+            position: absolute;
+            left: -90px;
+            transition: 0.3s;
+            padding: 15px;
+            width: 100px;
+            text-decoration: none;
+            font-size: 20px;
+            color: white;
+            border-radius: 0 5px 5px 0;
+        }
+
+        .sidebar a:hover {
+            left: 0;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="sidebar">
+        <a href="#" class="Home">Home</a>
+        <a href="#" class="About">About</a>
+        <a href="#" class="Services">Services</a>
+        <a href="#" class="Contact">Contact</a>
+    </div>
+
+    <div style="margin-left:200px;">
+        <h1>Hoverable Sidebar Buttons</h1>
+        <p>Hover over the buttons in the left sidebar to open them.</p>
+    </div>
+
+</body>
+
+</html>
